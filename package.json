@@ -1,6 +1,6 @@
 {
   "name": "ng2-notification-center",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Allows to globally dispatch notification messages.",
   "license": "MIT",
   "readmeFilename": "README.md",
@@ -34,7 +34,7 @@
     "@angular/forms": "^2.3.1",
     "@angular/platform-browser": "^2.3.1",
     "@angular/platform-browser-dynamic": "^2.3.1",
-    "@angular/platform-server": "^2.0.1",
+    "@angular/platform-server": "^2.3.1",
     "@types/assertion-error": "^1.0.30",
     "@types/chai": "^3.4.34",
     "@types/es6-shim": "^0.31.32",
@@ -63,5 +63,8 @@
     "tslint-stylish": "^2.1.0-beta",
     "typescript": "^2.0.10",
     "zone.js": "^0.7.2"
+  },
+  "dependencies": {
+    "typescript": "^2.0.10"
   }
 }
