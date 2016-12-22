@@ -33,7 +33,7 @@ export class NotificationCenterAlerts implements OnInit, OnDestroy {
     // -------------------------------------------------------------------------
 
     @Input()
-    delay: number = 114000;
+    delay: number = 5000;
 
     @Input()
     layout: string = "attached";

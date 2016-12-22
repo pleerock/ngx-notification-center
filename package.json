@@ -1,6 +1,6 @@
 {
   "name": "ng2-notification-center",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Allows to globally dispatch notification messages.",
   "license": "MIT",
   "readmeFilename": "README.md",
