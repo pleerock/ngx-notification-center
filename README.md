@@ -1,4 +1,4 @@
-# ng2-notification-center
+# ngx-notification-center
 
 Notification center control for your angular2 applications using bootstrap3. Does not depend of jquery.
 Allows to push notifications from anywhere in your app and they will be shown under the app header.
@@ -7,17 +7,17 @@ Allows to push notifications from anywhere in your app and they will be shown un
 
 1. Install npm module:
 
-    `npm install ng2-notification-center --save`
+    `npm install ngx-notification-center --save`
 
 2. If you are using system.js you may want to add this into `map` and `package` config:
 
     ```json
     {
         "map": {
-            "ng2-notification-center": "node_modules/ng2-notification-center"
+            "ngx-notification-center": "node_modules/ngx-notification-center"
         },
         "packages": {
-            "ng2-notification-center": { "main": "index.js", "defaultExtension": "js" }
+            "ngx-notification-center": { "main": "index.js", "defaultExtension": "js" }
         }
     }
     ```
@@ -36,7 +36,7 @@ Example of simple usage:
 
 ```typescript
 import {Component} from "@angular/core";
-import {NotificationCenterModule, NotificationCenter} from "ng2-notification-center";
+import {NotificationCenterModule, NotificationCenter} from "ngx-notification-center";
 
 @Component({
     selector: "app",
@@ -93,5 +93,5 @@ export class AppModule {
 }
 ```
 
-Take a look on samples in [./sample](https://github.com/pleerock/ng2-notification-center/tree/master/sample) for more examples of
+Take a look on samples in [./sample](https://github.com/pleerock/ngx-notification-center/tree/master/sample) for more examples of
 usages.
